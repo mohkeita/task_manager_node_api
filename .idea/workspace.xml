@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21ad7a6a-850c-4240-ae57-5eef0db43356" name="Default Changelist" comment="" />
+    <list default="true" id="21ad7a6a-850c-4240-ae57-5eef0db43356" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/mongoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,6 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -29,11 +44,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602183638265</updated>
-      <workItem from="1602183639430" duration="22000" />
+      <workItem from="1602183639430" duration="3805000" />
     </task>
+    <task id="LOCAL-00001" summary="init node project">
+      <created>1602183704628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602183704629</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init node project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init node project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1602183704454">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state x="207" y="23" key="CommitChangelistDialog2/0.23.1280.729@0.23.1280.729" timestamp="1602183704454" />
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2" timestamp="1602183706660">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1602183706660" />
   </component>
 </project>
