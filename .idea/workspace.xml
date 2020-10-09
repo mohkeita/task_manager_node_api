@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21ad7a6a-850c-4240-ae57-5eef0db43356" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/tasks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/mongoose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/task.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware/auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602183638265</updated>
-      <workItem from="1602183639430" duration="8562000" />
+      <workItem from="1602183639430" duration="8712000" />
     </task>
     <task id="LOCAL-00001" summary="init node project">
       <created>1602183704628</created>
@@ -80,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602187524803</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implement user and task route">
+      <created>1602261259121</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602261259121</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,18 +90,20 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init node project" />
     <MESSAGE value="implement user and task model" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement user and task model" />
+    <MESSAGE value="implement user and task route" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement user and task route" />
   </component>
   <component name="WindowStateProjectService">
     <state x="573" y="141" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602261043844">
       <screen x="0" y="23" width="1280" height="732" />
     </state>
     <state x="573" y="141" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.732@0.23.1280.732" timestamp="1602261043844" />
-    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1602187524613">
-      <screen x="0" y="23" width="1280" height="730" />
+    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1602261258880">
+      <screen x="0" y="23" width="1280" height="732" />
     </state>
     <state x="207" y="23" key="CommitChangelistDialog2/0.23.1280.729@0.23.1280.729" timestamp="1602183704454" />
     <state x="207" y="23" key="CommitChangelistDialog2/0.23.1280.730@0.23.1280.730" timestamp="1602187524613" />
+    <state x="207" y="23" key="CommitChangelistDialog2/0.23.1280.732@0.23.1280.732" timestamp="1602261258880" />
     <state width="1259" height="181" key="GridCell.Tab.0.bottom" timestamp="1602260683976">
       <screen x="0" y="23" width="1280" height="732" />
     </state>
@@ -119,10 +120,11 @@
       <screen x="0" y="23" width="1280" height="732" />
     </state>
     <state width="1259" height="181" key="GridCell.Tab.0.right/0.23.1280.732@0.23.1280.732" timestamp="1602260683976" />
-    <state x="240" y="115" key="Vcs.Push.Dialog.v2" timestamp="1602187526675">
-      <screen x="0" y="23" width="1280" height="730" />
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2" timestamp="1602261261571">
+      <screen x="0" y="23" width="1280" height="732" />
     </state>
     <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1602183706660" />
     <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.23.1280.730@0.23.1280.730" timestamp="1602187526675" />
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.23.1280.732@0.23.1280.732" timestamp="1602261261571" />
   </component>
 </project>
