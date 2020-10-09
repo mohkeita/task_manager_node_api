@@ -1,7 +1,7 @@
 const express = require("express");
 const sharp = require("sharp");
 const router = new express.Router();
-const User = require("../models/user");
+const User = require("../model/user");
 const auth = require("../middleware/auth");
 const multer = require("multer");
 const { sendWelcomeEmail, sendCancelationEmail } = require("../emails/account");

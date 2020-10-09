@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21ad7a6a-850c-4240-ae57-5eef0db43356" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/middleware/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/dev.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emails/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/tasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +38,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -44,6 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -56,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602183638265</updated>
-      <workItem from="1602183639430" duration="8712000" />
+      <workItem from="1602183639430" duration="10601000" />
     </task>
     <task id="LOCAL-00001" summary="init node project">
       <created>1602183704628</created>
@@ -79,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602261259121</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implement middleware">
+      <created>1602261498411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602261498411</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,40 +116,45 @@
     <MESSAGE value="init node project" />
     <MESSAGE value="implement user and task model" />
     <MESSAGE value="implement user and task route" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement user and task route" />
+    <MESSAGE value="implement middleware" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement middleware" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="778" y="196" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602268523160">
+      <screen x="0" y="23" width="1280" height="732" />
+    </state>
+    <state x="778" y="196" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.732@0.23.1280.732" timestamp="1602268523160" />
     <state x="573" y="141" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602261043844">
       <screen x="0" y="23" width="1280" height="732" />
     </state>
     <state x="573" y="141" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.732@0.23.1280.732" timestamp="1602261043844" />
-    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1602261258880">
+    <state x="244" y="23" key="CommitChangelistDialog2" timestamp="1602261498243">
       <screen x="0" y="23" width="1280" height="732" />
     </state>
     <state x="207" y="23" key="CommitChangelistDialog2/0.23.1280.729@0.23.1280.729" timestamp="1602183704454" />
     <state x="207" y="23" key="CommitChangelistDialog2/0.23.1280.730@0.23.1280.730" timestamp="1602187524613" />
-    <state x="207" y="23" key="CommitChangelistDialog2/0.23.1280.732@0.23.1280.732" timestamp="1602261258880" />
-    <state width="1259" height="181" key="GridCell.Tab.0.bottom" timestamp="1602260683976">
+    <state x="244" y="23" key="CommitChangelistDialog2/0.23.1280.732@0.23.1280.732" timestamp="1602261498243" />
+    <state width="1259" height="181" key="GridCell.Tab.0.bottom" timestamp="1602268936432">
       <screen x="0" y="23" width="1280" height="732" />
     </state>
-    <state width="1259" height="181" key="GridCell.Tab.0.bottom/0.23.1280.732@0.23.1280.732" timestamp="1602260683976" />
-    <state width="1259" height="181" key="GridCell.Tab.0.center" timestamp="1602260683975">
+    <state width="1259" height="181" key="GridCell.Tab.0.bottom/0.23.1280.732@0.23.1280.732" timestamp="1602268936432" />
+    <state width="1259" height="181" key="GridCell.Tab.0.center" timestamp="1602268936431">
       <screen x="0" y="23" width="1280" height="732" />
     </state>
-    <state width="1259" height="181" key="GridCell.Tab.0.center/0.23.1280.732@0.23.1280.732" timestamp="1602260683975" />
-    <state width="1259" height="181" key="GridCell.Tab.0.left" timestamp="1602260683975">
+    <state width="1259" height="181" key="GridCell.Tab.0.center/0.23.1280.732@0.23.1280.732" timestamp="1602268936431" />
+    <state width="1259" height="181" key="GridCell.Tab.0.left" timestamp="1602268936430">
       <screen x="0" y="23" width="1280" height="732" />
     </state>
-    <state width="1259" height="181" key="GridCell.Tab.0.left/0.23.1280.732@0.23.1280.732" timestamp="1602260683975" />
-    <state width="1259" height="181" key="GridCell.Tab.0.right" timestamp="1602260683976">
+    <state width="1259" height="181" key="GridCell.Tab.0.left/0.23.1280.732@0.23.1280.732" timestamp="1602268936430" />
+    <state width="1259" height="181" key="GridCell.Tab.0.right" timestamp="1602268936431">
       <screen x="0" y="23" width="1280" height="732" />
     </state>
-    <state width="1259" height="181" key="GridCell.Tab.0.right/0.23.1280.732@0.23.1280.732" timestamp="1602260683976" />
-    <state x="240" y="115" key="Vcs.Push.Dialog.v2" timestamp="1602261261571">
+    <state width="1259" height="181" key="GridCell.Tab.0.right/0.23.1280.732@0.23.1280.732" timestamp="1602268936431" />
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2" timestamp="1602261500135">
       <screen x="0" y="23" width="1280" height="732" />
     </state>
     <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1602183706660" />
     <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.23.1280.730@0.23.1280.730" timestamp="1602187526675" />
-    <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.23.1280.732@0.23.1280.732" timestamp="1602261261571" />
+    <state x="240" y="115" key="Vcs.Push.Dialog.v2/0.23.1280.732@0.23.1280.732" timestamp="1602261500135" />
   </component>
 </project>
